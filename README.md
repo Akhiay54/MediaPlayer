@@ -2,9 +2,6 @@
 
 This Android application demonstrates advanced video streaming capabilities and API reverse engineering skills as part of the Teleparty Android Challenge.
 
-
-## How We Implemented Both Tasks
-
 ### Task 1: DRM Video Player Implementation Process
 
 #### 1. Architecture Setup
