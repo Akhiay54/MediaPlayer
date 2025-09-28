@@ -1,0 +1,30 @@
+﻿Hi! We’re very excited that you’re interviewing at Teleparty. We created this task to evaluate your proficiency in JavaScript and Android development. Good luck!
+
+
+Task 1
+Build an Android app that plays the following DRM-protected media: Manifest URL:
+https://bitmovin-a.akamaihd.net/content/art-of-motion_drm/mpds/11 331.mpd
+License server URL: https://cwip-shaka-proxy.appspot.com/no_auth Feel free to use any language and libraries of your choice.
+Task 1.1
+Build a user interface for the app that allows you to select any of the resolutions available in the MPD.
+
+
+Requirements:
+* It must be built on an Android application. Java or Kotlin is fine to use, however, Java is the main language used on the Teleparty Android app.
+* Video must be playing and able to scrub, play, and pause
+* Must use Exoplayer
+* Please record a video of your assignment working and meeting all the requirements
+Task 2
+Create a simple application that retrieves and displays metadata for videos using a streaming service API of your choice. You must use a non-public API for this task, meaning no use of API keys. You must reverse-engineer an actual API request that a streaming service uses to fetch metadata for a video. The application should:
+1. Accept a video ID as input
+2. Connect to an appropriate API to fetch the video's metadata
+3. Display relevant information about the video (title, description, release date, etc.) Playback not required
+Requirements:
+   * You may use either Kotlin, Java, or JavaScript for this assignment. A user interface is optional, but the metadata should be clearly presented
+   * You must not use a public API. APIs that are not suitable for this assignment include, but are not limited to, the YouTube public metadata API, TMDB, IMDB, etc.
+   * Consider using cookies, local storage, or other means of authentication to make these requests
+   * Hard-coded values are ok for this assignment as long as you can demonstrate in a video that it works at least once
+   * Please record a video of your assignment working and meeting all the requirements
+
+
+This task is used to demonstrate your ability to reverse engineer programs. Push the code to a git repository and share it along with the submission.
